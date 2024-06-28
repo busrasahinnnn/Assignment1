@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://t3.ftcdn.net/jpg/06/27/85/70/360_F_627857017_5r2FsJYJeZfufqiXcUvKCENF3fz4xFyg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+    font-weight: 600;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tab {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Hide the checkbox */
+#tab-toggle {
+    display: none;
+}
+
+.tab-label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+}
+
+.tab-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.tab-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-content ul li {
+    padding: 10px 20px;
+}
+
+.tab-content ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.tab-content ul li:hover {
+    background-color: #005bb5;
+}
+
+#tab-toggle:checked ~ .tab-content {
+    display: block;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 10em;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0073e6;
+}
+
+h3 {
+    color: #005bb5;
+}
+
+/* Button Styling */
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Additional CSS for layout and styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.flex-container-image-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-image {
+    border-radius: 50%;
+    margin-right: 20px;
+}

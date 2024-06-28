@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobby Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="#home" class="tab-link" onclick="showSection(event, 'home')">Welcome to My Hobby Website</a></h1>
+    </header>
+
+    <div class="tab">
+        <input type="checkbox" id="tab-toggle">
+        <label for="tab-toggle" class="tab-label">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <nav class="tab-content">
+            <ul>
+                <li><a href="#home" class="tab-link" onclick="showSection(event, 'home')">Home</a></li>
+                <li class="tab-link" id="hobbies-tab">My Hobbies
+                    <ul class="dropdown">
+                        <li><a href="#photography" class="tab-link" onclick="showSection(event, 'photography')">Photography</a></li>
+                        <li><a href="#cooking" class="tab-link" onclick="showSection(event, 'cooking')">Cooking</a></li>
+                        <li><a href="#traveling" class="tab-link" onclick="showSection(event, 'traveling')">Traveling</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" class="tab-link" onclick="showSection(event, 'contact')">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="container">
+        <section id="home" class="hobby-section">
+            <img src="https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/02/29113959/hobby-money.png">
+            <h2><b>The Power of Hobbies</b></h2>
+            <p>
+                Hobbies are essential components of a balanced and fulfilling life. They provide an oasis of relaxation and enjoyment amidst the responsibilities and challenges we face daily. Beyond simple leisure, hobbies offer profound benefits that enhance our mental, emotional, and physical well-being.
+                <br><br>
+                Engaging in hobbies allows us to express ourselves creatively and pursue passions without the constraints of routine tasks. They ignite our curiosity and drive continuous learning, while instilling a sense of accomplishment and self-worth. Through hobbies, we can break free from the stressors of life, giving our minds a much-needed respite and an opportunity to rejuvenate.
+                <br><br>
+                Hobbies also foster social connections. Whether we join a photography club, participate in cooking classes, or embark on travel adventures, we meet people who share similar interests. These connections can lead to lasting friendships, enriching our social lives and providing a sense of community.
+                <br><br>
+                Moreover, hobbies encourage us to explore and expand our skillsets. They offer opportunities to discover hidden talents, develop new abilities, and enhance existing ones. The sense of progression and mastery that comes with honing a hobby can boost our confidence and satisfaction.
+                <br><br>
+                <h2><b>My Personal Hobbies: Photography, Cooking, and Traveling</b></h2>
+                For me, hobbies are an essential lifeline that fills my days with joy and excitement. I have a deep passion for photography, cooking, and traveling, each contributing uniquely to my life's tapestry.
+                <br><br>
+                Photography allows me to capture moments that tell a story. A picture is worth a thousand words, and through my lens, I aim to convey emotions, beauty, and narratives that might otherwise go unnoticed. Whether it's the golden hour light bathing a landscape or the expressive face of a stranger, every photograph is a piece of art and a glimpse into the world's myriad perspectives.
+                <br><br>
+                Cooking is my canvas for culinary creativity. Experimenting with flavors, textures, and techniques not only satisfies my palate but also brings me a sense of achievement. Creating delicious dishes from scratch, improvising with ingredients, and mastering new recipes are all parts of my gastronomic journey. Sharing my culinary creations with friends and family adds an element of joy and connection.
+                <br><br>
+                Traveling opens doors to new cultures, experiences, and adventures. Exploring diverse destinations allows me to immerse myself in different ways of life, taste exotic cuisines, and appreciate the natural beauty and historical significance of various places. Travel broadens my horizons, enriches my understanding of the world, and leaves me with unforgettable memories.
+                <br><br>
+                In conclusion, hobbies are not merely activities to pass the time; they are essential enrichments to our lives. They provide opportunities for relaxation, learning, socialization, and personal growth. My hobbies of photography, cooking, and traveling not only bring immense pleasure but also allow me to express my creativity, discover new experiences, and connect with the world and those around me. Through these hobbies, I find joy, inspiration, and a deeper understanding of life’s vibrant tapestry.</p>
+        </section>
+        <section id="photography" class="hobby-section" style="display: none;">
+            <h2>Photography</h2>
+            <img src="https://www.creativepadmedia.com/wp-content/uploads/2022/07/why-photography-is-the-best-hobby.jpg" alt="Photography">
+            <p>Hi, I'm Busra, and I have a hobby that brings immense joy and satisfaction to my life – photography. Capturing the world through the lens of a camera allows me to see beauty in the most unexpected places. Whether it's a breathtaking landscape, a candid moment, or a piece of forgotten history, photography lets me immortalize these moments and share my unique perspective with others.
+
+                Being behind the camera gives me a sense of tranquility and focus. It’s not just about taking pictures; it's about the stories those pictures tell – the emotions, the details, and the fleeting instants that might otherwise go unnoticed. I enjoy experimenting with different techniques, playing with light and shadows, and continuously learning to improve my skills.
+                
+                Photography is more than a hobby for me; it's a way of life, a way to connect with the world and express my creativity. Each photo is a chapter in my visual diary, and through this art form, I aspire to inspire others to see the extraordinary in the ordinary.</p>
+            <h3>Equipment List</h3>
+            <ol>
+                <li>Camera</li>
+                <li>Tripod</li>
+                <li>Lens</li>
+            </ol>
+        </section>
+        <section id="cooking" class="hobby-section" style="display: none;">
+            <h2>Cooking</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGH50SVPkNFy5LBd1_0EQfXzl9jkuWud7diw&s" alt="Cooking">
+            <p>It’s easy to fall into a rut when it comes to mealtimes. We buy the same ingredients, follow the same recipes we know by heart, or buy the same pre-prepared meals for convenience. There’s nothing wrong with tried and tested food, but spicing up mealtimes can be very rewarding. Whether you now have more time on your hands or simply want to get creative in the kitchen, cooking is a hobby that really allows you to enjoy your hard work. Cooking is also an excellent excuse for a get-together. Recent Covid-19 restrictions are limiting our daily contact, so you may not be able to show off your new recipes immediately. Still, you can start to hone your cooking skills now. That way, you’ll be able to create incredible dishes when you next host family or friends.
+
+                We spoke to Cookery Instructor and Demonstrator Anne Marie Lambert from Get Cooking! Anne Marie told Age Times: "Approaching cooking with a different frame of mind can help make the process enjoyable. Seeing it as a creative activity rather than just I need to get something on the table.
+                
+                "Ensure you have basic store cupboard ingredients in so you are able to start cooking when you are in the mood for it.
+                
+                "Start with something simple, omelette flavoured with fresh herbs or fresh tomato sauce for pasta. Soup with seasonal vegetables is a great way to play with different flavours. Order a seasonal vegetable bag to bring you out of your comfort zone. The unpredictability of its contents can inspire you to cook differently.
+                
+                "Look through recipe books and put bookmarkers in. Take photos of those pages and put them in a folder on your phone. Next time you go to the supermarket, buy the ingredients for one of them. Choose a different recipe each week to build up your repertoire. Remember, particularly with savoury food recipes are a guide, you can deviate with different seasonal ingredients or replace fresh herbs with dried ones.</p>
+            <h3>Favorite Dishes</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Cuisine</th>
+                        <th>Difficulty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Spaghetti Carbonara</td>
+                        <td>Italian</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Sushi</td>
+                        <td>Japanese</td>
+                        <td>Hard</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Curry</td>
+                        <td>Indian</td>
+                        <td>Medium</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="traveling" class="hobby-section" style="display: none;">
+            <h2>Traveling</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*bttnQI_T8gp8LTmG8LKVBw.jpeg" alt="Traveling">
+            <p>Traveling is one of my favorite hobbies. I love exploring new places and experiencing different cultures. The world is vast, with interesting cultures, landscapes, and experiences waiting to be explored. It beckons to the curious and adventurous among us, sparking a lifelong fascination with the art of travel. But is traveling just a hobby, or does it contain something far more profound? This exploration delves into the captivating world of wanderlust, exploring why traveling is more than a pastime, but a rich and multifaceted hobby that can enrich your life. Traveling is a journey that goes beyond the very act of moving from one place to another. It’s a passport to expanding your horizons in ways you never thought possible. As you traverse the globe, you’re exposed to diverse cultures, each with its own unique customs, traditions, and beliefs. This exposure fosters a deeper understanding of the world’s rich tapestry of diversity, making you a more open-minded and empathetic individual.
+                Learning new languages becomes an exciting challenge, breaking down linguistic barriers and enabling you to connect with people on a deeper level. The process of language acquisition during travel isn’t confined to textbooks it’s immersive, practical, and often sprinkled with humor. As you stumble through unfamiliar phrases and exchange smiles with locals, you gain not just linguistic proficiency but also the ability to communicate from the heart. Moreover, traveling instills a profound appreciation for the beauty of diversity. The world is a palette of landscapes, from majestic mountains to peaceful beaches, and bustling municipalities to peaceful countryside. Each destination offers a unique side of nature’s wonders, inviting you to admire the brilliance of our planet. Whether you’re hiking through dense forests, gazing at the Northern Lights, or swimming in crystal-clear waters, the connection with nature becomes an integral part of your travel experiences.</p>
+        </section>
+        <section id="contact" class="hobby-section" style="display: none;">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Hobby Website</p>
+
+        <div class="flex-container-image-footer">
+            <a href="https://www.facebook.com" target="_blank">
+                <img class="footer-image" width="50" height="50" src="https://cdn-icons-png.flaticon.com/256/124/124010.png" alt="Facebook">
+            </a>
+            <a href="https://x.com" target="_blank">
+                <img class="footer-image" width="50" height="50" src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img class="footer-image" width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
